@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.formativa1.MainActivity">
+
+    <EditText
+        android:id="@+id/Telefono"
+        android:layout_width="390dp"
+        android:layout_height="70dp"
+        android:hint="Telefono"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/Mensaje"
+        android:layout_width="390dp"
+        android:layout_height="70dp"
+        android:hint="Mensaje"
+        android:layout_below="@+id/Telefono"/>
+    <Button
+        android:id="@+id/Enviar"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Mensaje"
+        android:text="Enviar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+</RelativeLayout>
